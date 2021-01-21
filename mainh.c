@@ -60,7 +60,7 @@ int main()
 	wi.winx = 1000;
 	wi.winy = 1000;
 	wi.mlx_ptr = mlx_init();
-	wi.win_ptr = mlx_new_window(wi.mlx_ptr, 1000, 1000, "Best Rtv1 Ever");
+	wi.win_ptr = mlx_new_window(wi.mlx_ptr, 1000, 1000, "Best Rtv1 Ever dl9lawi n3amass");
 	wi.img_ptr = mlx_new_image(wi.mlx_ptr, wi.winx, wi.winy);
 	wi.line = mlx_get_data_addr(wi.img_ptr, &wi.bpp, &wi.size_line, &wi.endian);
 
